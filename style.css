@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(218, 222, 184) 25%, rgb(195, 213, 124) 50%, rgb(211, 208, 62) 75%, rgb(241, 209, 23) 100%); 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top-center;
+    padding-top: 100px;
+    height: 835px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 840px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+form button {
+    background-color: #190807;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px;
+    transition: .3s;
+}
+
+form button:hover {
+    transform: scale(1.2);
+    background-color: #d7921c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+table td img {
+    height: 30px;
+}
+
+table tr button {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 60px;
+    height: 35px;
+}
+
+table tr button:hover {
+    transform: scale(1.2);
+    background-color: #de2525;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
